@@ -72,7 +72,8 @@ function Body() {
 const MainSection = styled("section",{
   height: '90vh',
   display: 'flex',
-
+  width: '95vw',
+  justifyContent: 'space-evenly'
 })
 const Planet = styled('div',{
     border: '2px solid #E75626',
